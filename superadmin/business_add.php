@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             
             $stmt = $conn->prepare($query);
             $stmt->bind_param(
-                "sssssssississss",
+                "sssssssisssdss",
                 $businessName, $slug, $ownerName, $phone, $email, $address,
                 $logoPath, $pointsRatio, $primaryColor, $secondaryColor, $accentColor,
                 $monthlyFee, $subscriptionStart, $subscriptionEnd
