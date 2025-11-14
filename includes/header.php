@@ -100,7 +100,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="<?php echo isset($basePath) ? $basePath : ''; ?>index.php">
-                <img src="../uploads/logos/logo-Loyalin.png" alt="Loyalin">
+                <img src="assets/images/logo-Loyalin.png" alt="Loyalin">
                 <div class="brand-text">
                     <span class="brand-name">Loyalin</span>
                     <span class="brand-tagline">Bikin Pelanggan Balik Lagi</span>

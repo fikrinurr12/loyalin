@@ -142,7 +142,7 @@ $siteName = getSetting($conn, 'site_name', 'Loyalin - Platform Loyalitas UMKM');
         <div class="card">
             <div class="card-header text-center">
                 <div class="auth-logo mb-3">
-                    <img src="assets/images/logo-loyalin.png" alt="Loyalin Logo">
+                    <img src="assets/images/logo-Loyalin.png" alt="Loyalin Logo">
                 </div>
                 <h3 class="mt-2 mb-1">Login ke Loyalin</h3>
                 <p class="mb-0 small opacity-75">Platform Loyalitas Multi-UMKM Indonesia</p>
