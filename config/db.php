@@ -1,16 +1,14 @@
 <?php
-// Database configuration
-$host = 'db.fr-pari1.bengt.wasmernet.com';
-$username = '6d1089877b12800008ae27c6e542';
-$password = '06916d10-8987-7ce2-8000-eab17d9e27bb';
-$database = 'suricrypt_loyalin';
+$host = "db.fr-pari1.bengt.wasmernet.com";
+$port = 10272;
+$user = "6d1089877b12800008ae27c6e542";
+$pass = "06916d10-8987-7ce2-8000-eab17d9e27bb";
+$db   = "suricrypt_loyalin";
 
-// Create connection
-$conn = new mysqli($host, $username, $password, $database);
+$conn = new mysqli($host, $user, $pass, $db, $port);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($conn->connect_errno) {
+    die("Connection error: " . $conn->connect_error);
 }
 
 // Set character set
