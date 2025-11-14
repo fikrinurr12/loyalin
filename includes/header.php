@@ -13,7 +13,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loyalin - Platform Loyalitas UMKM Indonesia</title>
-    <link rel="icon" href="../uploads/logos/logo-Loyalin.png"
+    <link rel="icon" href="../assets/images/logo-Loyalin.png"
         type="image/png">
 
     <!-- Bootstrap CSS -->
@@ -100,7 +100,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="<?php echo isset($basePath) ? $basePath : ''; ?>index.php">
-                <img src="assets/images/logo-Loyalin.png" alt="Loyalin">
+                <img src="../assets/images/logo-Loyalin.png" alt="Loyalin">
                 <div class="brand-text">
                     <span class="brand-name">Loyalin</span>
                     <span class="brand-tagline">Bikin Pelanggan Balik Lagi</span>
