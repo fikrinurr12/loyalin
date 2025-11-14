@@ -1,9 +1,9 @@
 <?php
 // Database configuration
 $host = 'db.fr-pari1.bengt.wasmernet.com';
-$username = '6cdf5ac478af8000f76067de8845';
-$password = '06916cdf-5ac4-7b87-8000-0ccc33f874c9';
-$database = 'db_loyalin';
+$username = '6d1089877b12800008ae27c6e542';
+$password = '06916d10-8987-7ce2-8000-eab17d9e27bb';
+$database = 'suricrypt_loyalin';
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $database);
